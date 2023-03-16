@@ -1,6 +1,6 @@
 import './styles.css'
 
-export default () => {
+const Rodape = () => {
     return (
         <footer className='footer'>
             <section>
@@ -33,3 +33,5 @@ export default () => {
         </footer>
     );
 }
+
+export default Rodape
